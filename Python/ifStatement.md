@@ -1,6 +1,6 @@
-### In Python, there are some difference on `if` statmement.
+## In Python, there are some difference on `if` statmement.
 
-## Difference of `is` and `==`:
+### Difference of `is` and `==`:
 `==` compares the value while `is` compares the address of the value.
 
 ```
@@ -13,6 +13,6 @@ Example:
 4327570104
 ```
 
-## Difference of judge if a variable is equal to None:
+### Difference of judge if a variable is equal to None:
 
 
