@@ -65,7 +65,6 @@ False
 
 ### Difference of judge if a variable is equal to None:
 In Python, `None`, `False`, `""`, `0`, `[]`, `{}`, `()` are regarded as False. However, this doesn't means these objects directly equal to False.
-
 	```
 	Example:
 	>>> a = []
