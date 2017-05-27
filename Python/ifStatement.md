@@ -1,7 +1,7 @@
-## In Python, there are some difference on `if` statmement.
+## In Python, there are some difference on True or False judgement.
 
 ### Difference of `is` and `==`:
-`==` compares the value while `is` compares the address of the value.
+`==` compares the value while `is` compares the address of the value. Thus, (ob1 is ob2) is equal to (id(ob1) == id(ob2)).
 
 ```
 Example:
@@ -53,7 +53,7 @@ False
 	```
 * Problems may cause:
 
-	For the mutable values, if users hope to change one value without influence other values, sometimes more storage is needed.
+	For the mutable objects, if users hope to change one object without influence other objects, sometimes more storage is needed.
 	```
 	Example:
 	>>> a = [1, 2]
@@ -64,5 +64,14 @@ False
 	```
 
 ### Difference of judge if a variable is equal to None:
-In Python, `None`, `False`, `""`, `0`, `[]`, `{}`, `()` are all equal to False.
+In Python, `None`, `False`, `""`, `0`, `[]`, `{}`, `()` are regarded as False. However, this doesn't means these objects directly equal to False.
+
+	```
+	Example:
+	>>> a = []
+	>>> not a
+	True
+	>>> a == False
+	False
+	```
 
