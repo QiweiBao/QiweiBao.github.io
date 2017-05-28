@@ -19,7 +19,7 @@ False
 
 * In Python, objects are divided as mutable and immutable.
 
-	`tuple`, `number` and `string` are regarded as immutable object, where their addresses will not change.
+	`tuple`, `number` and `string` are regarded as immutable object, where their addresses will not change. (The address of integers will not change from -5 to 256) More infomation from: https://docs.python.org/2/c-api/int.html.
 	```
 	Example:
 	>>> a = 12
